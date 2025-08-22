@@ -1,0 +1,39 @@
+# CODEOWNERS file for admin-proxy-436
+# Global owners - will be requested for all PRs
+* @Armor-test/team-governance @Armor-test/squad-payments @Armor-test/unit-cloud
+
+# Directory ownership
+/src/ @Armor-test/dept-automation @Armor-test/squad-payments
+/hooks/ @Armor-test/squad-payments @Armor-test/grp-storage @Armor-test/squad-frontend
+/services/ @Armor-test/squad-research @Armor-test/squad-tooling @Armor-test/grp-search
+/migrations/ @Armor-test/grp-ui @Armor-test/unit-test
+/third_party/ @Armor-test/unit-test @Armor-test/unit-design @Armor-test/squad-performance
+/middleware/ @Armor-test/team-logging @Armor-test/squad-api @Armor-test/squad-cache
+/shared/ @Armor-test/team-security @Armor-test/squad-reporting @Armor-test/squad-search
+/data/ @Armor-test/dept-billing @Armor-test/grp-search
+/dist/ @Armor-test/grp-ui @Armor-test/team-security @Armor-test/squad-database
+/deploy/ @Armor-test/team-notifications @Armor-test/squad-search @Armor-test/dept-reporting
+/tools/ @Armor-test/squad-product @Armor-test/squad-ux @Armor-test/dept-automation
+/web/ @Armor-test/team-research @Armor-test/dept-logging @Armor-test/grp-api
+/models/ @Armor-test/unit-devops @Armor-test/dept-billing
+/assets/ @Armor-test/dept-logging @Armor-test/team-reporting
+
+# File type ownership
+*.tsx @Armor-test/squad-tooling @Armor-test/grp-payments
+*.lock @Armor-test/grp-api @Armor-test/squad-frontend
+*.css @Armor-test/grp-search @Armor-test/dept-data @Armor-test/squad-performance
+*.tf @Armor-test/unit-test @Armor-test/unit-governance @Armor-test/team-core
+*.properties @Armor-test/dept-reliability @Armor-test/squad-ml
+*.ts @Armor-test/squad-product @Armor-test/dept-automation @Armor-test/grp-storage
+*.config @Armor-test/squad-search @Armor-test/team-research @Armor-test/squad-reporting
+*.php @Armor-test/dept-security @Armor-test/unit-test @Armor-test/grp-integration
+*.cpp @Armor-test/grp-ui @Armor-test/dept-billing
+*.kt @Armor-test/team-frontend @Armor-test/unit-devops
+*.json @Armor-test/dept-logging @Armor-test/unit-governance
+*.go @Armor-test/team-reporting @Armor-test/grp-reporting
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
